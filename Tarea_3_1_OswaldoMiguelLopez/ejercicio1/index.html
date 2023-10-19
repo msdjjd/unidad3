@@ -1,0 +1,32 @@
+<!-- Declaración del tipo de documento como HTML5 -->
+<!DOCTYPE html> 
+<html lang="en"> <!-- Elemento raíz que engloba todo el contenido de la página, con atributo 'lang' para el idioma inglés -->
+<head>
+    <meta charset="UTF-8"> <!-- Configuración de la codificación de caracteres a UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la vista en dispositivos móviles -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Inclusión de jQuery desde una ubicación en línea -->
+    <script src="script.js"></script> <!-- Enlace al archivo JavaScript externo llamado "script.js" -->
+    <link rel="stylesheet" href="e.css"> <!-- Enlace a una hoja de estilo CSS llamada "e.css" -->
+    <title>Ejercicio JavaScript y jQuery</title> <!-- Título de la página que se muestra en la pestaña del navegador -->
+</head>
+<body> <!-- Inicio del contenido visible de la página -->
+    <h1>Ejercicio JavaScript y jQuery</h1> <!-- Encabezado principal de la página con el título -->
+
+    <label for="nombre">Nombre:</label> <!-- Etiqueta para el campo de entrada de texto -->
+    <input type="text" id="nombre" placeholder="Escribe tu nombre"> <!-- Campo de entrada de texto para el nombre con atributos 'id' y 'placeholder' -->
+
+    <button id="mostrarMensaje">Mostrar Mensaje</button> <!-- Botón para mostrar un mensaje con un ID específico -->
+    <button id="ocultarMensaje">Ocultar Mensaje</button> <!-- Botón para ocultar un mensaje con un ID específico -->
+
+    <div id="mensaje"> <!-- Div con un ID para mostrar un mensaje personalizado -->
+        ¡Bienvenido , <span id="nombreMostrado"></span>! <!-- Mensaje de bienvenida con un span que se llenará con el nombre -->
+    </div>
+
+    <h2>Autocompletado</h2> <!-- Subencabezado para la sección de autocompletado -->
+
+    <label for="autocomplete">Búsqueda:</label> <!-- Etiqueta para el campo de entrada de autocompletado -->
+    <input type="text" id="autocomplete" placeholder="Alumno..."> <!-- Campo de entrada para autocompletado con atributos 'id' y 'placeholder' -->
+    <ul id="sugerencias"></ul> <!-- Lista no ordenada con un ID para mostrar sugerencias de nombres -->
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+YPE html>
+<html lang="es">
+    <head>
+        <title>Reconocimiento facial</title>
+        <meta charset="utf-8">
+        <script src="pico.js"></script>
+
+    </head>
+    <body>
+        <div><img id="image" ></div>
+        
+        <canvas id="canvas" willReadFrequently="true" height="360" width="480"></canvas>
+        
+        <input type="file" accept="image/jpeg, image/x-png, image/webp" />
+        <input type="submit" onclick="analyzeImage()" value="Analizar iamgen"/>
+        
+
+        <script src="facedetection.js"></script>
+    </body>
+ 
+</html>
+
